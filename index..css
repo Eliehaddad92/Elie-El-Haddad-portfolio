@@ -1,0 +1,112 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #1e1e2f;
+    color: #fff;
+    display: flex;
+}
+
+.sidebar {
+    width: 300px;
+    background: #2b2b3d;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #ffd700;
+}
+
+.profile h2 {
+    margin: 15px 0;
+    color: #ffd700;
+}
+
+.profile p {
+    font-size: 0.9em;
+}
+
+.social-links a {
+    margin: 5px;
+    display: inline-block;
+}
+
+.social-links img {
+    width: 24px;
+    height: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 15px 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+.main-content {
+    margin-left: 320px;
+    padding: 40px;
+    flex-grow: 1;
+    background: #1e1e2f;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.main-content h2 {
+    font-size: 2.5em;
+    color: #ffd700;
+    margin-bottom: 20px;
+}
+
+.about-me-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.profile-image-main {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.about-description {
+    max-width: 600px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2b2b3d;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 300px);
+    left: 300px;
+}
